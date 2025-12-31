@@ -1,7 +1,7 @@
 {
   "name": "Ma PWA Locale",
   "short_name": "MaApp",
-  "start_url": "index.html",
+  "start_url": "https://github.com/slls75966-try/Firstapp/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
