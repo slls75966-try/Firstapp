@@ -8,8 +8,17 @@
     <title>Ma PWA Locale</title>
 </head>
 <body>
-    <h1>Ma Première PWA</h1>
-    <p>Cette app fonctionne sans serveur !</p>
+    <div class="app-container">
+        <h1>Ma PWA Hors-Ligne</h1>
+        <p>Cette application est installable et fonctionne sans connexion internet grâce au Service Worker.</p>
+        
+        <button class="btn-action" onclick="alert('Action locale exécutée !')">
+            Tester l'interaction
+        </button>
+
+        <div id="status" class="status-badge">Vérification du réseau...</div>
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
